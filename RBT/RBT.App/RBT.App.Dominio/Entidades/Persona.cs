@@ -1,5 +1,6 @@
 using System;
-namespace RappiBusTransportation.App.Dominio
+
+namespace RBT.App.Dominio
 {
     public class Persona
     {

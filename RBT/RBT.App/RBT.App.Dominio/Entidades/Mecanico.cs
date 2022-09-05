@@ -1,3 +1,8 @@
+using System;
+
+namespace RBT.App.Dominio
+{
+
 public class Mecanico:Persona
 {
     public int IdMecanico{get;set;}
@@ -5,5 +10,7 @@ public class Mecanico:Persona
     public string NivelEstudios{get;set;}
     
 
+
+}
 
 }

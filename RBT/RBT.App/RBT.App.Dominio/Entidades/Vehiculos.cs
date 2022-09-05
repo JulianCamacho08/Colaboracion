@@ -1,4 +1,7 @@
-namespace RappiBusTransportation.App.Dominio;
+using System;
+
+namespace RBT.App.Dominio
+{
 public class Vehiculo
 {
     public string IdVehiculos {get;set;}
@@ -22,5 +25,7 @@ public class Vehiculo
     
     
    
+
+}
 
 }

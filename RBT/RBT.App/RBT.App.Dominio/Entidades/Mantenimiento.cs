@@ -1,4 +1,8 @@
-﻿namespace RappiBusTransportation.App.Dominio;
+﻿
+using System;
+
+namespace RBT.App.Dominio
+{
 public class Mantenimiento
 {
     public int IdMantenimiento {get;set;}
@@ -17,3 +21,4 @@ public class Mantenimiento
 
 }
 
+}
