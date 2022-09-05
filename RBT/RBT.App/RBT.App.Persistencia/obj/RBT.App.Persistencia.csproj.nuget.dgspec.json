@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositorios\\RepMintic\\RBT\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj": {}
+    "C:\\Repositorios\\RepMintic\\Colaboracion\\RBT\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Repositorios\\RepMintic\\RBT\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj": {
+    "C:\\Repositorios\\RepMintic\\Colaboracion\\RBT\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorios\\RepMintic\\RBT\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Repositorios\\RepMintic\\Colaboracion\\RBT\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj",
         "projectName": "RBT.App.Persistencia",
-        "projectPath": "C:\\Repositorios\\RepMintic\\RBT\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj",
+        "projectPath": "C:\\Repositorios\\RepMintic\\Colaboracion\\RBT\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\Jotace\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorios\\RepMintic\\RBT\\RBT.App\\RBT.App.Persistencia\\obj\\",
+        "outputPath": "C:\\Repositorios\\RepMintic\\Colaboracion\\RBT\\RBT.App\\RBT.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jotace\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
